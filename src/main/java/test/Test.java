@@ -9,10 +9,9 @@ public class Test {
 		
 		boolean z = true;
 		
-		for (int i=0; i <= 10; i++) {
-			
-			System.out.println("hello world %d" i);
+		for(int i = 0; i <= 10; i++) 
+		{
+			System.out.println(String.format("hello world %d" i));
 		}
 	}
-
 }
